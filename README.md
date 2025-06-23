@@ -5,7 +5,7 @@ This repository showcases a comprehensive natural language processing (NLP) proj
 
 ## 🚀 Project Overview
 
-### Enhanced Business Framework:
+### Business Framework:
 
 **Business Question**: How can quantitative finance professionals leverage natural language processing techniques and automated text classification to systematically categorize financial news articles for improved investment decision-making, market sentiment analysis, and risk assessment?
 
