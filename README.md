@@ -26,7 +26,6 @@ This repository showcases a comprehensive natural language processing (NLP) proj
 
 ![image](https://github.com/user-attachments/assets/9aa9828d-3dfe-49e5-a7e2-812ddfaf3f66)
 
-**[INSERT DATASET OVERVIEW VISUALIZATION HERE]**
 
 ### Article Categories Distribution:
 
@@ -163,7 +162,7 @@ text_train, text_test, y_train, y_test = train_test_split(
 - **N-gram Generation**: Creating word pairs for context capture
 - **Stemming**: Reducing words to their root forms
 
-### Part A: Bag of Words Analysis
+### Bag of Words Analysis
 
 #### Model Configurations Tested:
 
@@ -202,7 +201,6 @@ vectorizer = CountVectorizer(lowercase=True, stop_words='english',
 
 ![image](https://github.com/user-attachments/assets/5df6ac43-2e8e-4f97-ae35-57daeef30950)
 
-**[INSERT BOW MODEL COMPARISON VISUALIZATION HERE]**
 
 #### Performance Analysis by Category:
 
@@ -220,9 +218,8 @@ vectorizer = CountVectorizer(lowercase=True, stop_words='english',
 
 ![image](https://github.com/user-attachments/assets/3f3c9939-52a6-49b2-b62f-dd0f6180a395)
 
-**[INSERT BOW CONFUSION MATRIX VISUALIZATION HERE]**
 
-### Part B: TF-IDF Analysis
+### TF-IDF Analysis
 
 #### Enhanced Model Performance:
 
@@ -262,8 +259,6 @@ vectorizer = TfidfVectorizer(lowercase=True, stop_words='english',
 ![image](https://github.com/user-attachments/assets/226e9f51-d357-4cbe-89c3-e2552ae6669f)
 
 
-**[INSERT TFIDF MODEL COMPARISON VISUALIZATION HERE]**
-
 #### TF-IDF Performance by Category:
 
 **Strongest Performing Categories (TF-IDF):**
@@ -281,9 +276,7 @@ vectorizer = TfidfVectorizer(lowercase=True, stop_words='english',
 ![image](https://github.com/user-attachments/assets/d58718d5-cd75-42c1-8a72-5e773aa2cbb1)
 
 
-**[INSERT TFIDF CONFUSION MATRIX VISUALIZATION HERE]**
-
-### Part C: Combined Text Analysis
+### Combined Text Analysis
 
 #### Multi-Field Feature Engineering:
 
@@ -311,7 +304,6 @@ vectorizer.fit(text_train_combined)
 
 ![image](https://github.com/user-attachments/assets/cad08b59-76d8-4c48-a696-86a14ee9af45)
 
-**[INSERT COMBINED TEXT PERFORMANCE COMPARISON HERE]**
 
 #### Category-Specific Improvements:
 
@@ -327,8 +319,6 @@ vectorizer.fit(text_train_combined)
 
 ![image](https://github.com/user-attachments/assets/9f40f93d-868c-4059-b499-c42805baeccc)
 
-
-**[INSERT COMBINED TEXT CONFUSION MATRIX HERE]**
 
 #### Information Content Analysis:
 
@@ -354,8 +344,6 @@ vectorizer.fit(text_train_combined)
 
 ![image](https://github.com/user-attachments/assets/1657017d-e594-4a5c-9ff6-a7549e7bf1c5)
 
-
-**[INSERT COMPREHENSIVE PERFORMANCE COMPARISON VISUALIZATION HERE]**
 
 ### Statistical Significance:
 
