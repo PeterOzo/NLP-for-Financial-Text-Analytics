@@ -1,4 +1,4 @@
-## Automated News Article Classification for Financial Decision-making
+## Automated News Article Classification for Financial Decision-making 
 *Advanced Quantitative Methods and Machine Learning in Finance*
 
 This repository showcases a comprehensive natural language processing (NLP) project focused on automated news article classification for financial decision-making. The project demonstrates the practical application of text mining techniques to extract actionable insights from financial news data, enabling quantitative finance professionals to leverage automated content categorization for investment analysis and market intelligence.
